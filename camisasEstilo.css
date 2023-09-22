@@ -1,0 +1,29 @@
+.camisetas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.formulario {
+    border: 2px;
+    border-radius: 2px;
+    padding: 20px;
+    background-color:  #262626;
+    color: #fff;
+ }
+ 
+ .formulario label {
+    display: block;
+    margin-bottom: 5px;
+ }
+ 
+ .formulario input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #1c1c1c;
+    border: 2px;
+    color: #fff;
+ }
